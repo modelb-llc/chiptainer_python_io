@@ -32,6 +32,6 @@ GPIO.output("CSID3", GPIO.LOW) # LED D3 should go out
 exit()
 ```
 
-...
+```
 exit  # exits the container
-....
+```
