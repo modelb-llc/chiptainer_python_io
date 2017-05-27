@@ -1,5 +1,5 @@
 # Base off the Docker container that includes Alpine for installing packages.
-FROM ntc-registry.githost.io/nextthingco/chiptainer_alpine
+FROM modelb/chiptainer_alpine:master
 
 # Install tools needed to download and build the CHIP_IO library from source.
 RUN apk update && apk add make && apk add gcc && apk add g++ && \
